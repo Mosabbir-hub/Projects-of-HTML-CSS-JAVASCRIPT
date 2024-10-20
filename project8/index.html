@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class7</title>
+
+    <link rel="stylesheet" href="https://fonts.googleleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+         
+</head>
+<script>
+    function myfun(){
+    var x1=document.getElementById('text1').value
+    var x2=document.getElementById('text2').value
+    var x3=document.getElementById('password').value
+    alert(" code : "+x1+"\n Phone number : "+x2+ "\n Password input: "+x3)
+        }
+</script>
+<body>
+    <div class="login-area">
+        <div class="login-top">
+            <div class="logo">
+                <a href="#"><img src="assets/images/logo.png" alt="no img found"></a>
+            </div>
+            <h5>Get Started with JEXCA</h5>
+        </div>
+        <div class="row">
+            <div class="col1">
+                <div class="form-floating">
+                    <div class="container input1">
+                        <div class="entryarea">
+                            <input type="text" id="text1" value="+880" required>
+                            <div class="labelline">
+                                Code
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+            <div class="col2">
+                <div class="container input2">
+                    <div class="entryarea">
+                        <input type="text" id="text2" required>
+                        <div class="labelline1">
+                            Phone Number
+                        </div>
+                    </div>
+                </div>    
+            </div>    
+        </div>
+        <div class="container input3">
+            <div class="entryarea">
+                <input type="password"  id="password" required>
+                   <div class="labelline">
+                        Password input field
+                    </div> 
+                    <img src="assets/images/img_1.png" onclick="pass()" class="pass-icon" id="pass-icon" >
+            </div>
+        </div>
+        <div class="chekbox">
+            <input type="checkbox"  id="check" onclick="enable()">
+            I agree to the <a href="#">Privacy & Policy,</a> <a href="#">Terms & Condition</a> and <a href="#">Refund Policy</a>
+            <button disabled="true" id="btn"  onclick="myfun()">log in</button>
+        </div>
+        <div class="footer-area">
+            <div class="link1">
+                <a href="#">Forgot Password?</a>
+            </div>   
+            <div class="link2">
+                <a href="#">Do you have an account?</a>
+            </div>  
+        </div> 
+        <div class="login-box2">
+            <a href="#">Register</a>
+        </div>
+    </div>  
+    
+    <script>
+        function enable(){
+            var check = document.getElementById("check");
+            var btn = document.getElementById("btn");
+            if(check.checked){
+                btn.removeAttribute("disabled");
+            }
+            else{
+                btn.disabled = "true";
+            } 
+        }
+    </script>
+    
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

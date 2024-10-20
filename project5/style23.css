@@ -1,0 +1,38 @@
+.header-top{
+	background:#636e72;
+	padding:8px 10px;
+}
+.header-menu{
+	float:right;
+	
+}
+.header-menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.header-menu ul li{
+	float:left;
+}
+.header-top:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.header-menu ul li a{
+	color:white;
+	font-size:14px;
+	font-family:georgia Regular;
+	font-weight:normal;
+	margin-left:10px;
+}
+a{
+	text-decoration:none;
+}
+.header-menu ul li :after{
+	content:' |';
+	color:white;
+}
+.header-menu ul li:last-child :after {
+	content:''; 
+}

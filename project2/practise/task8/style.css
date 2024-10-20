@@ -1,0 +1,74 @@
+.ftop-image1{
+    float:left;
+    overflow:hidden;
+    margin-left: 160px;
+}
+.ftop-image1 img{
+    transition:0.5s;
+    cursor: pointer;
+    opacity:0.3;
+}
+.ftop-image1 img:hover{
+    opacity:1;
+}
+
+
+.ftop-image2{
+    float:left;
+    overflow:hidden;
+    margin-left: 100px;
+}
+.ftop-image2 img{
+    transition:0.5s;
+    cursor: pointer;
+    opacity:0.3;
+}
+.ftop-image2 img:hover{
+    opacity:1;
+}
+
+
+
+.ftop-image3{
+    float:left;
+    overflow:hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.ftop-image3 img{
+    transition:0.5s;
+    cursor: pointer;
+    opacity:0.3;
+}
+.ftop-image3 img:hover{
+    opacity:1;
+}
+
+
+.ftop-image4{
+    float:left;
+    overflow:hidden;
+    margin-right: 100px;
+}
+.ftop-image4 img{
+    transition:0.5s;
+    cursor: pointer;
+    opacity:0.3;
+}
+.ftop-image4 img:hover{
+    opacity:1;
+}
+
+
+.ftop-image5{
+    overflow:hidden;
+    margin-left: 600px;
+}
+.ftop-image5 img{
+    transition:0.5s;
+    cursor: pointer;
+    opacity:0.3;
+}
+.ftop-image5 img:hover{
+    opacity:1;
+}

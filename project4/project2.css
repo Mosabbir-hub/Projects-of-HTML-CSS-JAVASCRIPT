@@ -1,0 +1,354 @@
+a{
+	text-decoration:none;
+}
+
+ul{
+	list-style:none;
+}
+/* Header top */
+
+.header-top{
+	background:#2980b9;
+	padding:8px 13px;
+}
+
+.header-top:after{
+	content:' ';
+	display:block;
+	clear:both;
+}
+
+.header-menu{
+	float:right;
+}
+.header-menu ul{
+	margin:0;
+	padding:0;
+	
+}
+
+.header-menu ul li{
+	float:left;
+}
+
+.header-menu ul li:after{
+	content:'| ';
+	color:white;
+	
+}
+.header-menu ul li:last-child:after
+{
+	content:' ';
+}
+
+.header-menu ul li a{
+	color:white;
+	font-size:13px;
+	font-family:Georgia Regular;
+	font-weight:normal;
+	margin-right:5px;
+	margin-left:5px;
+}
+
+/* Header bottom */
+
+.header-bottom{
+	padding:10px 0;
+	overflow:hidden;
+}
+
+.logo{
+	width:30%;
+	float:left;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+
+.main-menu{
+	width:70%;
+	overflow:hidden;
+	margin-top:10px;
+}
+
+.main-menu ul{
+	margin:0;
+	padding:0;
+	float:right;
+	border-bottom:1px solid #BBBBBB;
+}
+
+.main-menu ul li{
+	float:left;
+}
+
+
+
+.main-menu ul li a{
+	text-transform:uppercase;
+	color:black;
+	font-size:14px;
+	font-family:Georgia Regular;
+	font-weight:normal;
+	margin-right:15px;
+	padding-bottom:15PX;
+	display:block;
+	border-bottom:2px solid transparent;
+}
+
+.main-menu ul li a:hover{
+	border-bottom:2px solid #55405F;
+}
+
+.main-menu ul li:last-child a{
+	margin:0;
+}
+
+.current{
+	border-bottom:2px solid #55405F;
+}
+
+/* monitor artea */
+
+.monitor-area{
+	background:#bdc3c7;
+	overflow:hidden;
+	padding-top:30px;
+}
+
+.monitor-area:after{
+	content:'';
+	display:block;
+	clear:both;
+	
+}
+
+.monitor{
+	width:50%;
+	float:left;
+	overflow:hidden;
+}
+
+.monitor img{
+	width:60%;
+}
+
+.monitor-content{
+	width:44%;
+	float:right;
+	overflow:hidden;
+	padding-right:6%;
+	box-sizing:padding-box;
+}
+.monitor-title{
+	margin-top:40px;
+}
+
+.monitor-title h1{
+	color:#333333;
+	font-family:Georgia Regular;
+	font-size:38px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+
+.monitor-text{
+	color:#999999;
+}
+
+.monitor-button a{
+	background:#8e44ad;
+	color:#FFFFFF;
+	padding:5px 20px;
+	display:inline-block;
+	border-radius:6px;
+	font-size:15px;
+	text-transform:uppercase;
+	
+}
+
+.arrow{
+    background:none;
+	
+}
+
+.left-arrow{
+	position:relative;
+	left:5%;
+    top:28px;
+	border-right:1px solid  #666;
+	width:20px;
+	border-bottom:1px solid #666;
+	
+}
+.right-arrow{
+	position:relative;
+	right:5%;
+    top:30px;
+	border-left:1px solid  #666;
+	width:20px;
+	border-bottom:1px solid #666;
+	
+	
+}
+
+
+
+.duipash{
+	width:90%;
+	margin:0px auto;
+}
+
+/* service area */
+
+.services{
+	overflow:hidden;
+	width:90%;
+	margin:-42px auto auto;
+	background:#FFFFFF;
+	padding-top:22px;
+	border-radius:6px 6px 0 0;
+	
+}
+
+.service-column{
+	width:22%;
+	float:left;
+	overflow:hidden;
+	margin-right:4%;
+	text-align:center;
+}
+
+.service-column:last-child{
+	margin:0;
+}
+
+.service-title h1{
+	color:#55415f;
+	font-size:20px;
+	font-family:Georgia Regular;
+	border-bottom:1px solid #CCCCCC;
+	padding-bottom:20px;
+	
+}
+
+.service-content{
+	color:#807D77;
+	font-size:15px;
+}
+
+.quote{
+	text-align:center;
+	color:#222222;
+	font-size:20px;
+}
+
+/* portfolio */
+
+.portfolio{
+	margin-top:50px;
+	overflow:hidden;
+	
+}
+
+.portfolio-column{
+	width:22%;
+	float:left;
+	overflow:hidden;
+	margin-right:4%;
+}
+
+.portfolio-column:last-child{
+	margin:0;
+}
+
+.portfolio-heading h2{
+	color:#55415f;
+	font-size:18px;
+	font-family:Georgia Regular;
+	
+}
+
+.portfolio-content{
+	color:#807D77;
+	font-size:15px;
+}
+
+.read-more{
+	color:#807d77;
+}
+
+/* Main footer */
+
+.main-footer{
+	background:#FFFFFF;
+	overflow:hidden;
+	margin-top:20px;
+	color:#807d77;
+	padding:20px 0;
+	border-bottom:1px solid #666666;
+}
+
+.main-footer h1,h2,h3,h4,h5,h6,p {
+	margin:0;
+}
+
+
+
+
+
+.footer-column{
+	width:22%;
+	float:left;
+	overflow:hidden;
+	margin-right:4%;
+}
+
+.footer-column:last-child{
+	margin:0;
+}
+
+.footer-heading h2{
+	color:black;
+	font-size:18px;
+	font-family:Georgia Regular;
+	margin-bottom:10px;
+	
+}
+
+.footer-content h3{
+	color:55415f;
+	font-size:18px;
+}
+
+.footer-content{
+	color:black;
+	font-size:15px;
+}
+.date{
+	font-size:12px;
+	margin-bottom:10px;
+}
+
+.copyright{
+	color:#666666;
+	font-size:14px;
+}
+.footer-bottom{
+	overflow:hidden;
+	background:#202020;
+	padding:20px 0;
+	border-top:1px solid #383838;
+	
+}
+.copyright-text{
+	width:50%;
+	float:left;
+	overflow:hidden;
+}
+
+.poweredby{
+	width:50%;
+	float:right;
+	overflow:hidden;
+	text-align:right;
+}

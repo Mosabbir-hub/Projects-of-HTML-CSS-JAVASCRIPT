@@ -1,0 +1,31 @@
+.container1{
+	position:absolute;
+	
+}
+.container1 img{
+	height:100px;
+	width:100px;
+}
+.overlay1{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	opacity:0;
+	transition:opacity 0.4s ease-in-out ;
+	background:black;
+	cursor:pointer;
+}
+.content1{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color:white;
+	font-family:vardana;
+	text-align:center;
+}
+.container1:hover .overlay1{
+	opacity:0.8;
+}

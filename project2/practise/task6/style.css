@@ -1,0 +1,10 @@
+
+.owl-carousel{
+    width:50%;
+    overflow:hidden;
+}
+.right{
+    float:left;
+    overflow:hidden;
+    width:50%;
+}

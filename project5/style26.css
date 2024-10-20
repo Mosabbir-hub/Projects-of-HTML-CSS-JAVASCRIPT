@@ -1,0 +1,47 @@
+.body{
+	margin:0;
+}
+
+
+
+/* .middle-area{ */
+	/* width:1024px; */
+	/* height:300px; */
+/* } */
+.left-sidebar{
+	
+	height:500px;
+	width:500px;
+	width:30%;
+	float:left;
+	overflow:hidden;
+}
+
+.content-area{
+    background:white;
+	height:150px;
+	width:30%px;
+	float:left;
+	overflow:hidden;
+}
+
+.right-sidebar{
+	float:right;
+	height:200px;
+	width:20%;
+	overflow:hidden;
+	padding: 50px;
+	background:#4CAF50;
+	
+}
+
+.right-sidebar .username{
+	font-size:30px;
+}
+
+.fotter-area{
+
+	height:100px;
+	width:700px
+}
+

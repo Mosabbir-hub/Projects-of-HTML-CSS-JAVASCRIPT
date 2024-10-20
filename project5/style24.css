@@ -1,0 +1,203 @@
+/* Main css */
+.logo{
+	width:20%;
+	float:left;
+	overflow:hidden;
+}
+.logo img{
+	margin-top:2px;
+}
+
+body{
+	font-size:16px;
+}
+
+a{
+	font-size:14px;
+}
+
+.main-manu{
+	background:#3B5A95;
+}
+.main-manu:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.main-manu ul{
+	list-style:none;
+	margin-top:8px;
+	padding:8px;
+		
+}
+
+.main-manu ul li{
+	float:right;
+	position:relative;
+}
+.main-manu ul ul{
+	position:absolute;
+	top:100%;
+	background:#fbc531;
+	width:300px;
+	display:none;
+}
+.main-manu ul li:hover > ul{
+	display:block;
+}
+
+.main-manu ul ul li{
+	float:none;
+}
+
+.main-manu a{
+	text-decoration:none;
+	color:white;
+	/* text-transform:uppercase; */
+	text-transform:capitalize;
+	display:block;
+	padding:5px 20px;
+}
+
+.main-manu ul .current{
+	background:#e74c3c;
+	border-radius:3px;
+	/* box-shadow:0 5px 0 #2c3e50; */
+	/* border: 1px solid transparent; */
+}
+
+.main-manu ul ul ul{
+	position:absolute;
+	left:100%;
+	top:0;
+	display:none;
+	background:#718093;
+}
+
+.main-manu ul ul li:hover > ul{
+	display:block;
+	
+}
+
+.main-manu ul ul ul ul{
+	position:absolute;
+	left:-100%;
+	top:0;
+	display:none;
+	background:blue;
+}
+
+.main-manu ul ul  li:hover > ul{
+	display:block;
+	
+}
+
+/* how to make menu responsive */
+@media all and (max-width: 564px)
+{
+	.main-manu ul li{
+		float:none;
+	}
+	.main-manu ul ul
+	{
+		display:block;
+		position:inherit;
+		left:0;
+		width:100%;
+		background:black;
+		
+	}
+	.main-manu ul ul li:before{
+		content:'  -  ';
+		margin-left:10px;
+		color:white;
+		position:absolute;
+		top:6px;
+		left:10px;
+	}
+		
+		
+	}
+	.main-manu ul ul ul
+	{
+		display:block;
+		position:inherit;
+		left:0;
+		background:black;
+	}
+	.main-manu ul ul ul ul
+	{
+		display:block;
+		position:inherit;
+		left:0;
+		background:black;
+		
+	}
+	.main-manu ul li:hover
+	{
+		background:transparent;
+	}
+	body{
+	  font-size:1em;
+     }
+}
+
+
+@media all and (max-width: 400px){
+	body{
+		font-size:5em;
+	}
+	a{
+		font-size:.5em;
+	}
+}
+
+.main-manu ul .current:hover{
+	box-shadow:0 0 0;
+	border: 1px solid #ecf0f1;
+	padding-bottom:5px;
+}
+.main-manu ul li:hover{
+	background:#e74c3c;
+	border-radius:3px;
+	box-shadow:0 5px 0 #2c3e50;
+	border: 1px solid transparent;
+
+.main-manu ul li:hover{
+	background:#e74c3c;
+	border-radius:3px;
+	
+}
+
+hader-top1{
+	float:right;
+}
+
+
+/* .box{ */
+	/* height:200px; */
+	/* width:200px; */
+	/* background:rgb(0, 0, 0); */
+	/* background:rgba(0, 0, 0, .2); */
+	/* position:fixed; */
+	/* position:absolute; */
+	/* position:relative; */
+	/* bottom:0; */
+	/* left:0; */
+/* } */
+
+/* .box .subbox{ */
+	/* height:100px; */
+	/* width:100px; */
+	/* background:rgb(0, 0, 0); */
+	/* background:rgba(0, 0, 0, .2); */
+	/* position:fixed; */
+	/* position:absolute; */
+	/* background:#273c75; */
+	/* bottom:10px; */
+	/* left:0; */
+	
+/* } */
+
+/* quirktools.com */

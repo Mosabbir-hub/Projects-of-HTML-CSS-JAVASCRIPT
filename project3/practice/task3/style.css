@@ -1,0 +1,272 @@
+.container{
+    margin: 0 auto;
+    width:1000px;
+}
+body,h1,h3,p{
+    margin: 0;
+    padding:0;
+}
+.middle-area9{
+    float:left;
+    overflow:hidden;
+    width:60%;
+    padding-top: 50px;
+}
+.middle-area9 p{
+    color:#3498db;
+}
+.middle-area10{
+    overflow:hidden;
+    width:40%;
+} 
+.middle-area10 img{
+    margin-top: -30px;
+    height:650px;
+    width:400px;
+}
+.single-area9-1{
+    float:left;
+    overflow:hidden;
+    width:50%;
+}
+.single-area9-1 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px;
+}
+.single-area9-2{
+    overflow:hidden;
+    width:50%;
+}
+.single-area9-2 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px;
+}
+.single-area9-3{
+    float:left;
+    overflow:hidden;
+    width:50%;
+}
+.single-area9-3 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px;
+}
+.single-area9-4{
+    overflow:hidden;
+    width:50%;
+}
+.single-area9-4 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px;
+}
+
+.single-area11-1{
+    padding-top: 20px;
+}
+.single-area11-2{
+    padding-top: 20px;
+}
+.single-area11-3{
+    padding-top: 20px;
+}
+.single-area11-4{
+    padding-top: 20px;
+}
+.single-area11-1 img{
+    height:60px;
+    width:70px;
+    float: left;
+    margin-top: -10px;
+}
+.single-area11-2 img{
+    height:60px;
+    width:70px;
+    float: left;
+    margin-top: -10px;
+}
+.single-area11-3 img{
+    height:60px;
+    width:70px;
+    float: left;
+    margin-top: -10px;
+}
+.single-area11-4 img{
+    height:60px;
+    width:70px;
+    float: left;
+    margin-top: -10px;
+}
+
+.content1{
+    overflow:hidden;
+}
+.content2{
+    overflow:hidden;
+}
+.content3{
+    overflow:hidden;
+}
+.content4{
+    overflow:hidden;
+}
+
+.single-area11-1{
+    float:left;
+    overflow:hidden;
+}
+.single-area11-2{
+    overflow:hidden;
+}
+.single-area11-3{
+    float:left;
+    overflow:hidden;
+}
+.single-area11-4{
+    overflow:hidden
+}
+.middle-area11{
+    float:left;
+    overflow:hidden;
+    width:60%;
+    padding-top: 100px;
+}
+.middle-area12{
+    overflow:hidden;
+    width:40%;
+}
+.middle-area12 img{
+    margin-top: 30px;
+    height:550px;
+    width:400px;
+}
+.middle-area13{
+    float:left;
+    overflow:hidden;
+    width:60%;
+    padding-top: 100px;
+}
+.middle-area14{
+    overflow:hidden;
+    width:40%;
+    
+}
+.middle-area14 img{
+    margin-top: 30px;
+    height:550px;
+    width:400px;
+}
+.single-area13-1 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px;
+}
+.single-area13-2 img{
+    margin-left: -10px;
+    height:60px;
+    width:70px;
+}
+.single-area16-1{
+    float:left;
+    overflow:hidden;
+}
+.single-area16-2{
+    overflow:hidden;
+}
+.single-area16-3{
+    float:left;
+    overflow:hidden;
+}
+.single-area16-4{
+    overflow:hidden;
+}
+.middle-area15{
+    width:40%;
+    float:left;
+    overflow:hidden;
+}
+.middle-area16{
+    width:60%;
+    overflow:hidden;
+    padding: 50px 0px;
+}
+.single-area16-1 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px; 
+}
+.single-area16-2 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px; 
+}
+.single-area16-3 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px; 
+}
+.single-area16-4 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px; 
+}
+.middle-area15 img{
+    margin-top: 50px;
+    height:450px;
+    width:370px;
+}
+
+
+
+.middle-area17 img{
+    margin-top: 150px;
+    height:450px;
+    width:370px;
+}
+.middle-area17{
+    width:40%;
+    float:left;
+    overflow:hidden;
+}
+.middle-area18{
+    width:60%;
+    overflow:hidden;
+    padding-top: 200px;
+}
+.single-area18-1 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px; 
+}
+.single-area18-2 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px; 
+}
+.single-area18-3 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px; 
+}
+.single-area18-4 img{
+    height:60px;
+    width:70px;
+    margin-left: -10px; 
+}
+
+.single-area18-1{
+    float:left;
+    overflow:hidden;
+}
+.single-area18-2{
+    overflow:hidden;
+}
+.single-area18-3{
+    float:left;
+    overflow:hidden;
+}
+.single-area18-4{
+    overflow:hidden;
+}

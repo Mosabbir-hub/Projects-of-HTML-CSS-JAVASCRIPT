@@ -1,0 +1,12 @@
+.owl-carousel .owl-nav button.owl-prev span{
+    font-size: 40px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -650px;
+}
+.owl-carousel .owl-nav button.owl-next span{
+    font-size: 40px;
+    position:absolute;
+    margin-top: -200px;
+    margin-left: -180px;
+}

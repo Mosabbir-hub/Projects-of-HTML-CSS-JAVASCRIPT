@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>document</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
+		integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" 
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+		integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" 
+		referrerpolicy="no-referrer" />
+</head>
+<body>
+	
+	<div class="container">
+	  <h1 id="headline">Exclusive Hot Deal Ends Soon!</h1>
+	  <p>Who are in extremely love with eco friendly system.</p>
+	  <div id="countdown">
+			<ul>
+				<li><span id="days"></span> days</li>
+				<li><span id="hours"></span> Hours</li>
+				<li><span id="minutes"></span> Minutes</li>
+				<li><span id="seconds"></span> Seconds</li>
+			</ul>
+	 </div>
+
+		<div id="content" class="emoji">
+			<span>the deal is end</span>
+		</div>
+		<a href="#">Shop now</a>
+	</div>
+	
+
+	<div id="slider-2" class="owl-carousel owl-theme">
+		<div class="item" style="width:500px; height:300px;  margin-top: 50px; margin-left: 100px;"><img src="o-img1.webp" alt="no img"></div>
+		<div class="item" style="width:500px; height:300px; margin-top: 50px; margin-left: 100px;"><img src="o-img2.jpeg" alt="no img"></div>
+		<div class="item" style="width:500px; height:300px; margin-top: 50px; margin-left: 100px;"><img src="o-img3.jpeg" alt="no img"></div>
+	</div>
+	<!-- jquery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+	integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+	<!-- owl coursel -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+	integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script>
+	$("#slider-2").owlCarousel({
+	items:1,
+	dots:false,
+    loop:true,
+    margin:19,
+    nav:true,
+    
+});
+	</script>
+	<script src="timer.js" type="text/javascript"></script>
+</body>
+</html>
